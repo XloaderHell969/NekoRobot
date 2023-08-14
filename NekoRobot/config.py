@@ -10,16 +10,16 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = "6447873"
-    API_HASH = ""
-    TOKEN = ""
-    OWNER_ID = "5136853481"
-    OWNER_USERNAME = "Offline_into_100"
-    SUPPORT_CHAT = "CyberSupportGroup"
-    JOIN_LOGGER = ()
-    EVENT_LOGS = ()
+    API_ID = "21976341"
+    API_HASH = "8817cf59c95f0a1851d65c3a176137e2"
+    TOKEN = "6395489356:AAF-6ocJ_vbdbU3sgklEoro_lm9L763XTfU"
+    OWNER_ID = "5292788623"
+    OWNER_USERNAME = "elementaryKid"
+    SUPPORT_CHAT = "pegasusfederation2"
+    JOIN_LOGGER = -1001960654405
+    EVENT_LOGS = -1001960654405
 
-    SQLALCHEMY_DATABASE_URI = ""
+    SQLALCHEMY_DATABASE_URI = "postgres://deujfgcn:c2IPY0hiXm6oLW1Yg-G136bMG48XV4RQ@floppy.db.elephantsql.com/deujfgcn"
     MONGO_DB_URI = ""
     LOAD = []
     NO_LOAD = ["rss"]
