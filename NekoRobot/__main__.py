@@ -80,7 +80,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 start_txt = """
-ʜᴇʏ🥀 `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ!!
+ʜᴇʏ🥀 `{}`, ᴀᴘᴀ ᴋᴀʙᴀʀ!!
 """
 
 PM_START_TEXT = """
@@ -101,11 +101,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🤘 ᴀʙᴏᴜᴛ", callback_data="Neko_"),
-        InlineKeyboardButton(text="💪🇮🇳 ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="💪🇮🇩 ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
     ],
     [
         InlineKeyboardButton(text="🦄 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/CyberMusicProject"),
-        InlineKeyboardButton(text="🇮🇳 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🇮🇩 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(text="⚙️ ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
@@ -125,7 +125,7 @@ DONATE_STRING = """
 Hey babe,
 Happy to hear that you want to donate
 
-You can directly contact my [Developer](https://t.me/mogambo_odin) for donating or you can visit my [Support chat](https://t.me/CyberSupportGroup) and ask for donation.
+You can directly contact my [Developer](https://t.me/elementarykid) for donating or you can visit my [Support chat](https://t.me/pegasusfederation2) and ask for donation.
 """
 
 IMPORTED = {}
@@ -449,7 +449,7 @@ def Neko_about_callback(update: Update, context: CallbackContext):
                             text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/CyberMusicProject"
+                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/Elementaryproject"
                         ),
                     ],
                     [
@@ -500,7 +500,7 @@ Written in Python with the help of
 [Telethon](https://github.com/LonamiWebs/Telethon) • [Pyrogram](https://github.com/pyrogram/pyrogram) • [PTB](https://github.com/python-telegram-bot/python-telegram-bot)
 And suing [SQlalchemy](https://www.sqlalchemy.org) and [Mongo](https://cloud.mongodb.com) as Database.
   
-   [𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁](https://GitHub.com/MOGAMBO-XD/NekoRobot)
+   [𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁](https://GitHub.com/KazuyaNorthens/NekoRobot)
    
 ©2022-2023 @Cybermusicproject, All rights reserved.
 """,
